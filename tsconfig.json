@@ -16,6 +16,8 @@
     "target": "ESNext",
     "moduleResolution": "Node",
     "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
     "allowJs": true,
     "resolveJsonModule": true,
     "isolatedModules": true,

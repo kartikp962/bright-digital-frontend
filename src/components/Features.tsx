@@ -192,7 +192,7 @@ export default function Features() {
           {/* Katerine Testimonial 1 */}
           <div className="rounded-2xl bg-muted p-8">
             <h3 className="text-2xl font-bold text-foreground mb-4">
-              Katerina Testimonial 1
+              Katerina Testimonial
             </h3>
             <p className="text-muted-foreground mb-6">
               I was getting decent engagement on my LinkedIn posts—but none of it was converting into actual customers.They converted my engagement into customers.
@@ -201,7 +201,7 @@ export default function Features() {
             <div className="bg-white rounded-xl p-6 shadow-sm">
               <div className="aspect-w-16 aspect-h-9">
                 <iframe
-                  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                  src="https://youtube.com/embed/FGXIt32innQ"
                   title="Katerina's Video Testimonial"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -217,7 +217,7 @@ export default function Features() {
           {/*Anastasia Testimonial 2 */}
             <div className="rounded-2xl bg-muted p-8">
             <h3 className="text-2xl font-bold text-foreground mb-4">
-              Anastasia Testimonial 2
+              Anastasia Testimonial
             </h3>
             <p className="text-muted-foreground mb-6">
               The way he crafted stories for both me and my company… Honestly, it was amazing.
@@ -226,8 +226,8 @@ export default function Features() {
             <div className="bg-white rounded-xl p-6 shadow-sm">
               <div className="aspect-w-16 aspect-h-9">
                 <iframe
-                  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                  title="Katerina's Video Testimonial"
+                  src="https://youtube.com/embed/3UKqp6oQUjA"
+                  title="Anastasia's Video Testimonial"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
@@ -242,7 +242,7 @@ export default function Features() {
           {/*Faton Testimonial 3 */}
           <div className="rounded-2xl bg-muted p-8">
             <h3 className="text-2xl font-bold text-foreground mb-4">
-              Faton Testimonial 3
+              Faton Testimonial
             </h3>
             <p className="text-muted-foreground mb-6">
               I was struggling to generate leads for my company, but they took the time to understand my goals and delivered 5 qualified leads within just one week.
@@ -251,8 +251,8 @@ export default function Features() {
             <div className="bg-white rounded-xl p-6 shadow-sm">
               <div className="aspect-w-16 aspect-h-9">
                 <iframe
-                  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                  title="Katerina's Video Testimonial"
+                  src="https://www.youtube.com/embed/eeJB93EZfdk"
+                  title="Faton's Video Testimonial"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
@@ -267,7 +267,7 @@ export default function Features() {
           {/*Alba Testimonial 4 */}
           <div className="rounded-2xl bg-muted p-8">
             <h3 className="text-2xl font-bold text-foreground mb-4">
-              Alba Testimonial 4
+              Alba Testimonial
             </h3>
             <p className="text-muted-foreground mb-6">
               They completely transformed my LinkedIn profile and helped me position myself as a thought leader and generate qualified leads.
@@ -276,8 +276,8 @@ export default function Features() {
             <div className="bg-white rounded-xl p-6 shadow-sm">
               <div className="aspect-w-16 aspect-h-9">
                 <iframe
-                  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                  title="Katerina's Video Testimonial"
+                  src="https://youtube.com/embed/QuHp7b5tMFA"
+                  title="Alba's Video Testimonial"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen

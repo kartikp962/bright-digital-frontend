@@ -36,10 +36,10 @@ export default function Header() {
               Customers
             </a> */}
             <a
-              href="#"
+              href="#results"
               className="text-sm font-medium text-foreground hover:text-primary transition-colors"
             >
-              Pricing
+              Results
             </a>
           </nav>
 

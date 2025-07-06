@@ -33,7 +33,7 @@ export default function Footer() {
       </div> */}
 
       {/* CTA Section */}
-      <div className="bg-slate-800 px-4 py-16 lg:px-8">
+      {/* <div className="bg-slate-800 px-4 py-16 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="text-3xl font-bold text-white mb-8 sm:text-4xl">
             Discover the full scale of{" "}
@@ -58,14 +58,14 @@ export default function Footer() {
             </Button>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Footer Links */}
       <div className="bg-slate-900 px-4 py-16 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {/* Logo and Contact */}
-            <div className="space-y-4">
+            {/* <div className="space-y-4">
               <div className="flex items-center gap-2">
                 <div className="flex h-8 w-8 items-center justify-center rounded bg-primary">
                   <span className="text-lg font-bold text-primary-foreground">
@@ -84,10 +84,10 @@ export default function Footer() {
                   <span>+021 987 654 321</span>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Solution Column */}
-            <div>
+            {/* <div>
               <h3 className="text-sm font-semibold text-white mb-4">
                 Solution
               </h3>
@@ -133,10 +133,10 @@ export default function Footer() {
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> */}
 
             {/* Customers Column */}
-            <div>
+            {/* <div>
               <h3 className="text-sm font-semibold text-white mb-4">
                 Customers
               </h3>
@@ -182,10 +182,10 @@ export default function Footer() {
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> */}
 
             {/* Resources Column */}
-            <div>
+            {/* <div>
               <h3 className="text-sm font-semibold text-white mb-4">
                 Resources
               </h3>
@@ -223,39 +223,39 @@ export default function Footer() {
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
 
           {/* Bottom Section */}
-          <div className="mt-12 pt-8 border-t border-slate-700 flex flex-col md:flex-row justify-between items-center gap-4">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-slate-400">
-              © Copyright 2024 Clause. All rights reserved.
+              © Copyright 2025 Bright Digital. All rights reserved.
             </p>
             <div className="flex items-center gap-4">
-              <a
+              {/* <a
                 href="#"
                 className="text-slate-400 hover:text-white transition-colors"
               >
                 <Twitter className="h-5 w-5" />
-              </a>
+              </a> */}
               <a
                 href="#"
                 className="text-slate-400 hover:text-white transition-colors"
               >
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a
+              {/* <a
                 href="#"
                 className="text-slate-400 hover:text-white transition-colors"
               >
                 <Github className="h-5 w-5" />
-              </a>
-              <a
+              </a> */}
+              {/* <a
                 href="#"
                 className="text-slate-400 hover:text-white transition-colors"
               >
                 <Youtube className="h-5 w-5" />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

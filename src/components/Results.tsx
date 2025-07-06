@@ -1,4 +1,13 @@
 import { Star } from "lucide-react";
+import result1 from '@/assets/img/Result-1.jpeg';
+import result2 from '@/assets/img/Result-2.jpeg';
+import result3 from '@/assets/img/Result-3.jpeg';
+import result4 from '@/assets/img/Result-4.jpeg';
+import result5 from '@/assets/img/Result-5.jpeg';
+import result6 from '@/assets/img/Result-6.jpeg';
+import result7 from '@/assets/img/Result-7.jpeg';
+import result8 from '@/assets/img/Result-8.jpeg';
+import result9 from '@/assets/img/Result-9.jpeg';
 
 export default function Results() {
   const leftColumnTestimonials = [
@@ -72,7 +81,7 @@ export default function Results() {
   ];
 
   return (
-    <section className="w-full bg-gray-50 px-4 py-16 lg:px-8 lg:py-24 overflow-hidden">
+    <section id="results" className="w-full bg-gray-50 px-4 py-16 lg:px-8 lg:py-24 overflow-hidden">
       <div className="mx-auto max-w-7xl">
         {/* Section Header */}
         <div className="text-center mb-16">
@@ -91,44 +100,45 @@ export default function Results() {
             <div className="animate-scroll-up hover:[animation-play-state:paused]">
               <div className="space-y-4 mb-4">
                 {/* Duplicate for seamless loop */}
-                {[...leftColumnTestimonials, ...leftColumnTestimonials].map(
-                  (testimonial, index) => (
-                    <div
-                      key={`${testimonial.id}-${index}`}
-                      className="bg-white rounded-lg p-4 shadow-sm border border-gray-200"
-                    >
+                <div className="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
                       <div className="flex items-start gap-3">
                         <img
-                          src={testimonial.avatar}
-                          alt={testimonial.name}
-                          className="w-10 h-10 rounded-full object-cover"
+                          src={result1}
+                          alt="result-1"
+                          className="w-full h-full object-cover"
                         />
-                        <div className="flex-1 min-w-0">
-                          <div className="flex items-center gap-2 mb-1">
-                            <span className="font-semibold text-sm text-foreground">
-                              {testimonial.name}
-                            </span>
-                            {testimonial.title && (
-                              <span className="text-xs text-muted-foreground">
-                                {testimonial.title}
-                              </span>
-                            )}
-                            <span className="text-xs text-muted-foreground ml-auto">
-                              {testimonial.time}
-                            </span>
-                          </div>
-                          <p className="text-sm text-foreground mb-2">
-                            {testimonial.message}
-                          </p>
-                          <div className="flex items-center gap-2 text-xs text-muted-foreground">
-                            <span>👍 {testimonial.likes}</span>
-                            <span>💬</span>
-                          </div>
-                        </div>
                       </div>
-                    </div>
-                  ),
-                )}
+                </div>
+
+                <div className="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
+                      <div className="flex items-start gap-3">
+                        <img
+                          src={result2}
+                          alt="result-2"
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
+                </div>
+
+                <div className="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
+                      <div className="flex items-start gap-3">
+                        <img
+                          src={result4}
+                          alt="result-4"
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
+                </div>
+
+                <div className="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
+                      <div className="flex items-start gap-3">
+                        <img
+                          src={result5}
+                          alt="result-5"
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
+                </div>
               </div>
             </div>
           </div>
@@ -138,58 +148,45 @@ export default function Results() {
             <div className="animate-scroll-down hover:[animation-play-state:paused]">
               <div className="space-y-4 mb-4">
                 {/* Duplicate for seamless loop */}
-                {[...rightColumnTestimonials, ...rightColumnTestimonials].map(
-                  (testimonial, index) => (
-                    <div
-                      key={`${testimonial.id}-${index}`}
-                      className="bg-white rounded-lg p-6 shadow-sm border border-gray-200"
-                    >
-                      <div className="flex items-start gap-3 mb-4">
+                <div className="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
+                      <div className="flex items-start gap-3">
                         <img
-                          src={testimonial.avatar}
-                          alt={testimonial.name}
-                          className="w-12 h-12 rounded-full object-cover"
+                          src={result6}
+                          alt="result-6"
+                          className="w-full h-full object-cover"
                         />
-                        <div className="flex-1 min-w-0">
-                          <h4 className="font-semibold text-foreground">
-                            {testimonial.name}
-                          </h4>
-                          <p className="text-sm text-muted-foreground">
-                            {testimonial.message}
-                          </p>
-                        </div>
-                        <button className="text-muted-foreground">•••</button>
                       </div>
+                </div>
 
-                      <div className="mb-3">
-                        <span className="text-sm font-medium text-foreground">
-                          {testimonial.category}
-                        </span>
+                <div className="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
+                      <div className="flex items-start gap-3">
+                        <img
+                          src={result7}
+                          alt="result-7"
+                          className="w-full h-full object-cover"
+                        />
                       </div>
+                </div>
 
-                      <div className="flex items-center gap-2 mb-4">
-                        <div className="flex items-center">
-                          {[...Array(5)].map((_, i) => (
-                            <Star
-                              key={i}
-                              className="w-4 h-4 fill-yellow-400 text-yellow-400"
-                            />
-                          ))}
-                        </div>
-                        <span className="text-sm font-medium">
-                          {testimonial.rating}
-                        </span>
-                        <span className="text-sm text-muted-foreground">
-                          {testimonial.date}
-                        </span>
+                <div className="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
+                      <div className="flex items-start gap-3">
+                        <img
+                          src={result8}
+                          alt="result-8"
+                          className="w-full h-full object-cover"
+                        />
                       </div>
+                </div>
 
-                      <p className="text-sm text-foreground leading-relaxed">
-                        {testimonial.review}
-                      </p>
-                    </div>
-                  ),
-                )}
+                <div className="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
+                      <div className="flex items-start gap-3">
+                        <img
+                          src={result9}
+                          alt="result-9"
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
+                </div>
               </div>
             </div>
           </div>

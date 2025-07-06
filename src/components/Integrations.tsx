@@ -27,26 +27,24 @@ export default function Integrations() {
       <div className="bg-slate-800 px-4 py-16 lg:px-8 lg:py-24">
         <div className="mx-auto max-w-4xl text-center">
           <p className="text-sm font-medium text-slate-300 uppercase tracking-wider mb-6">
-            🔗 INTEGRATIONS
+            🔗 Replace with <strong>“Our Process”</strong>
           </p>
 
           <h2 className="text-3xl font-bold text-white sm:text-4xl lg:text-5xl mb-6">
-            Don't replace. Integrate.
+            Don’t guess. Follow a proven system.
           </h2>
 
           <p className="text-lg text-slate-300 mb-8 max-w-2xl mx-auto">
-            We understand the hassle of replacing the long used tools in your
-            process. That's why we integrate tools you use in your day-to-day
-            work.
+            Our step-by-step process builds your authority, grows your audience, and drives leads, all done-for-you so you stay focused on your business.
           </p>
 
-          <Button
+          {/* <Button
             variant="ghost"
             className="text-white border-white/20 hover:bg-white/10 mb-12"
           >
             All Integrations
             <ArrowUpRight className="w-4 h-4 ml-1" />
-          </Button>
+          </Button> */}
 
           {/* Integration Icons Grid */}
           <div className="grid grid-cols-4 sm:grid-cols-6 lg:grid-cols-8 gap-4">

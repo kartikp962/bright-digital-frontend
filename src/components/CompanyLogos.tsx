@@ -12,10 +12,10 @@ export default function CompanyLogos() {
       <div className="mx-auto max-w-7xl">
         <div className="text-left mb-8">
           <p className="text-sm font-medium text-muted-foreground">
-            More than 100+
+            Worked with More than 
           </p>
           <p className="text-sm font-medium text-muted-foreground">
-            companies partner
+            20+ companies
           </p>
         </div>
 

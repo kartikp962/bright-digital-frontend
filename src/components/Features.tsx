@@ -15,22 +15,24 @@ export default function Features() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <p className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-4">
-            FEATURES
+            {/* FEATURES */}
+            What Our Clients Say
           </p>
           <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl lg:text-5xl mb-6">
-            Latest advanced technologies to{" "}
-            <span className="block">ensure everything you needs</span>
+            Hear it directly from them{" "}
+            {/* <span className="block">ensure everything you needs</span> */}
           </h2>
           <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-            Maximize your team's productivity and security with our affordable,
-            user-friendly contract management system.
+            {/* Maximize your team's productivity and security with our affordable,
+            user-friendly contract management system. */}
+            Proof that you don’t need to hustle on LinkedIn to see real results.
           </p>
         </div>
 
         {/* Features Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Dynamic Dashboard - Large Card */}
-          <div className="lg:col-span-2 rounded-2xl bg-muted/50 p-8">
+          {/* <div className="lg:col-span-2 rounded-2xl bg-muted/50 p-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
               <div>
                 <h3 className="text-2xl font-bold text-foreground mb-4">
@@ -86,10 +88,10 @@ export default function Features() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Smart Notifications */}
-          <div className="rounded-2xl bg-muted/50 p-8">
+          {/* <div className="rounded-2xl bg-muted/50 p-8">
             <h3 className="text-2xl font-bold text-foreground mb-4">
               Smart notifications
             </h3>
@@ -132,10 +134,10 @@ export default function Features() {
                 Save
               </Button>
             </div>
-          </div>
+          </div> */}
 
           {/* Task Management */}
-          <div className="rounded-2xl bg-muted/50 p-8">
+          {/* <div className="rounded-2xl bg-muted/50 p-8">
             <h3 className="text-2xl font-bold text-foreground mb-4">
               Task management
             </h3>
@@ -183,6 +185,105 @@ export default function Features() {
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div> */}
+
+          {/* Katerine Testimonial 1 */}
+          <div className="rounded-2xl bg-muted p-8">
+            <h3 className="text-2xl font-bold text-foreground mb-4">
+              Katerina Testimonial 1
+            </h3>
+            <p className="text-muted-foreground mb-6">
+              I was getting decent engagement on my LinkedIn posts—but none of it was converting into actual customers.They converted my engagement into customers.
+            </p>
+
+            <div className="bg-white rounded-xl p-6 shadow-sm">
+              <div className="aspect-w-16 aspect-h-9">
+                <iframe
+                  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                  title="Katerina's Video Testimonial"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full rounded-xl"
+                >
+                </iframe>
+              </div>
+            </div>
+          </div>
+
+
+          {/*Anastasia Testimonial 2 */}
+            <div className="rounded-2xl bg-muted p-8">
+            <h3 className="text-2xl font-bold text-foreground mb-4">
+              Anastasia Testimonial 2
+            </h3>
+            <p className="text-muted-foreground mb-6">
+              The way he crafted stories for both me and my company… Honestly, it was amazing.
+            </p>
+
+            <div className="bg-white rounded-xl p-6 shadow-sm">
+              <div className="aspect-w-16 aspect-h-9">
+                <iframe
+                  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                  title="Katerina's Video Testimonial"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full rounded-xl"
+                >
+                </iframe>
+              </div>
+            </div>
+          </div>
+
+
+          {/*Faton Testimonial 3 */}
+          <div className="rounded-2xl bg-muted p-8">
+            <h3 className="text-2xl font-bold text-foreground mb-4">
+              Faton Testimonial 3
+            </h3>
+            <p className="text-muted-foreground mb-6">
+              I was struggling to generate leads for my company, but they took the time to understand my goals and delivered 5 qualified leads within just one week.
+            </p>
+
+            <div className="bg-white rounded-xl p-6 shadow-sm">
+              <div className="aspect-w-16 aspect-h-9">
+                <iframe
+                  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                  title="Katerina's Video Testimonial"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full rounded-xl"
+                >
+                </iframe>
+              </div>
+            </div>
+          </div>
+
+
+          {/*Alba Testimonial 4 */}
+          <div className="rounded-2xl bg-muted p-8">
+            <h3 className="text-2xl font-bold text-foreground mb-4">
+              Alba Testimonial 4
+            </h3>
+            <p className="text-muted-foreground mb-6">
+              They completely transformed my LinkedIn profile and helped me position myself as a thought leader and generate qualified leads.
+            </p>
+
+            <div className="bg-white rounded-xl p-6 shadow-sm">
+              <div className="aspect-w-16 aspect-h-9">
+                <iframe
+                  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                  title="Katerina's Video Testimonial"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full rounded-xl"
+                >
+                </iframe>
               </div>
             </div>
           </div>

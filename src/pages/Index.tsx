@@ -11,7 +11,7 @@ export default function Index() {
       <Header />
       <main>
         <Hero />
-        <CompanyLogos />
+        {/* <CompanyLogos /> */}
         <Features />
         <Integrations />
       </main>

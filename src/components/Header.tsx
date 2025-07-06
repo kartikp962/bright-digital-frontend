@@ -13,17 +13,17 @@ export default function Header() {
           <div className="flex items-center gap-2">
             <div className="flex h-8 w-8 items-center justify-center rounded bg-primary">
               <span className="text-lg font-bold text-primary-foreground">
-                C
+                BD
               </span>
             </div>
             <span className="text-xl font-semibold text-foreground">
-              Clause
+              Bright Digital
             </span>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
-            <a
+            {/* <a
               href="#"
               className="text-sm font-medium text-foreground hover:text-primary transition-colors"
             >
@@ -34,7 +34,7 @@ export default function Header() {
               className="text-sm font-medium text-foreground hover:text-primary transition-colors"
             >
               Customers
-            </a>
+            </a> */}
             <a
               href="#"
               className="text-sm font-medium text-foreground hover:text-primary transition-colors"
@@ -44,14 +44,14 @@ export default function Header() {
           </nav>
 
           {/* Desktop Auth Buttons */}
-          <div className="hidden md:flex items-center gap-4">
+          {/* <div className="hidden md:flex items-center gap-4">
             <Button variant="ghost" size="sm">
               Log in
             </Button>
             <Button size="sm" className="bg-primary hover:bg-primary/90">
               Start Now
             </Button>
-          </div>
+          </div> */}
 
           {/* Mobile Menu Button */}
           <Button

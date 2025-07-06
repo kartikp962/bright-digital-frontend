@@ -1,5 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Zap } from "lucide-react";
+import topLeftProfile from '@/assets/img/top-left-profile.jpeg';
+import bottomLeftProfile from '@/assets/img/bottom-left-profile.jpeg';
 
 export default function Hero() {
   return (
@@ -47,8 +49,7 @@ export default function Hero() {
             <div className="h-16 w-16 rounded-full bg-gradient-to-br from-green-400 to-green-600 p-0.5">
               <div className="flex h-full w-full items-center justify-center rounded-full bg-white">
                 <img
-                  // src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=64&h=64&fit=crop&crop=face"
-                  src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=64&h=64&fit=crop&crop=face"
+                  src={topLeftProfile}
                   alt="Team member"
                   className="h-14 w-14 rounded-full object-cover"
                 />
@@ -85,7 +86,7 @@ export default function Hero() {
             <div className="h-16 w-16 rounded-full bg-gradient-to-br from-green-400 to-green-600 p-0.5">
               <div className="flex h-full w-full items-center justify-center rounded-full bg-white">
                 <img
-                  src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=64&h=64&fit=crop&crop=face"
+                  src={bottomLeftProfile}
                   alt="Team member"
                   className="h-14 w-14 rounded-full object-cover"
                 />

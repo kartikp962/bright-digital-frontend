@@ -67,12 +67,12 @@ export default function Testimonials() {
           </p>
           <h2 className="text-4xl font-bold mb-8 sm:text-5xl lg:text-6xl">
             There's a reason people <br />
-            are <span className="text-purple-400 italic">raving</span> about us.
+            are <span className="text-primary italic">raving</span> about us.
           </h2>
         </div>
 
         {/* Testimonials Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
           {testimonials.map((testimonial) => (
             <div
               key={testimonial.id}
@@ -82,7 +82,7 @@ export default function Testimonials() {
               {testimonial.rating && (
                 <div className="mb-4">
                   <p className="text-sm font-medium text-gray-300">
-                    {testimonial.rating}
+                    {/* {testimonial.rating} */}
                   </p>
                 </div>
               )}
@@ -112,6 +112,10 @@ export default function Testimonials() {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className='text-center font-medium'>
+          + more...
         </div>
       </div>
     </section>

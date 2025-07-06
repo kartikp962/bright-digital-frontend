@@ -35,12 +35,25 @@ export default function Header() {
             >
               Customers
             </a> */}
-            <a
+            {/* <a
               href="#results"
               className="text-sm font-medium text-foreground hover:text-primary transition-colors"
             >
               Results
-            </a>
+            </a> */}
+            <span
+  onClick={(e) => {
+    e.preventDefault(); // just in case
+    const section = document.getElementById("results");
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  }}
+  className="cursor-pointer text-sm font-medium text-foreground hover:text-primary transition-colors"
+>
+  Results
+</span>
+
           </nav>
 
           {/* Desktop Auth Buttons */}

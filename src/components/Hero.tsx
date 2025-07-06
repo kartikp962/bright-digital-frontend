@@ -28,6 +28,9 @@ export default function Hero() {
           <Button
             size="lg"
             className="bg-primary hover:bg-primary/90 px-8 py-3 text-base"
+            onClick={() => {
+    window.open('https://calendly.com/anuragpal/discoverycall', '_blank');
+  }}
           >
             Book a Free Call
           </Button>
@@ -35,8 +38,16 @@ export default function Hero() {
             variant="outline"
             size="lg"
             className="px-8 py-3 text-base border-input hover:bg-accent"
+            onClick={() => {
+    const section = document.getElementById("process");
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  }}
           >
-            See How It Works
+            {/* <a href="#process"> */}
+              See How It Works
+            {/* </a> */}
           </Button>
         </div>
       </div>

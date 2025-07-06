@@ -65,7 +65,7 @@ export default function Integrations() {
   ];
 
   return (
-    <section className="w-full">
+    <section className="w-full" id="process">
       {/* Integrations Section */}
       <div className="bg-slate-800 px-4 py-16 lg:px-8 lg:py-24">
         <div className="mx-auto max-w-4xl text-center">

@@ -239,8 +239,9 @@ export default function Footer() {
                 <Twitter className="h-5 w-5" />
               </a> */}
               <a
-                href="#"
+                href="https://www.linkedin.com/in/anuragpal7/"
                 className="text-slate-400 hover:text-white transition-colors"
+                target="_blank"
               >
                 <Linkedin className="h-5 w-5" />
               </a>

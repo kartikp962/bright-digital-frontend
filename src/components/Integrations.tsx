@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, Cloud } from "lucide-react";
 
 export default function Integrations() {
   const integrationIcons = [
@@ -19,6 +19,49 @@ export default function Integrations() {
     { name: "Shopify", color: "bg-green-600" },
     { name: "Spotify", color: "bg-blue-500" },
     { name: "Shopify", color: "bg-green-500" },
+  ];
+
+  const processes = [
+    {
+      id: 1,
+      title: "Deep-Dive Strategy Call",
+      subTitle: "We understand your business goals, target audience, and unique brand voice.",
+    },
+    {
+      id: 2,
+      title: "Onboarding",
+      subTitle: "We gather essential insights, assets, and approvals to set your system up efficiently.",
+    },
+    {
+      id: 3,
+      title: "Brand Positioning",
+      subTitle: "We craft your premium LinkedIn positioning to establish instant authority.",
+    },
+    {
+      id: 4,
+      title: "Profile Optimization",
+      subTitle: "We transform your profile into a client-attracting landing page.",
+    },
+    {
+      id: 5,
+      title: "Content Creation",
+      subTitle: "We write high-performing, personality-driven content tailored to your goals.",
+    },
+    {
+      id: 6,
+      title: "Publishing & Engagement",
+      subTitle: "We post consistently, engage strategically, and grow your visibility.",
+    },
+    {
+      id: 7,
+      title: "Lead Generation & Outreach",
+      subTitle: "We implement proven DM strategies to drive qualified leads.",
+    },
+    {
+      id: 8,
+      title: "Performance Tracking & Optimization",
+      subTitle: "We analyse results and refine strategies for maximum ROI.",
+    },
   ];
 
   return (
@@ -47,21 +90,24 @@ export default function Integrations() {
           </Button> */}
 
           {/* Integration Icons Grid */}
-          <div className="grid grid-cols-4 sm:grid-cols-6 lg:grid-cols-8 gap-4">
-            {integrationIcons.map((integration, index) => (
-              <div
-                key={index}
-                className="bg-white rounded-xl p-4 h-16 w-16 flex items-center justify-center hover:scale-105 transition-transform duration-200"
-              >
-                <div className={`w-8 h-8 rounded ${integration.color}`}></div>
-              </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {processes.map((process, index) => (
+                <div key={index} className="bg-gray-900 rounded-2xl p-6 border border-gray-800 hover:border-gray-700 transition-colors text-center">
+                  <h4 className="text-xl font-bold text-white mb-4">
+                    {process.title}
+                  </h4>
+                  <p className="text-gray-300 text-sm leading-relaxed">
+                    {process.subTitle}
+                  </p>
+                </div>
+             
             ))}
           </div>
         </div>
       </div>
 
       {/* Testimonial Section */}
-      <div className="bg-white px-4 py-16 lg:px-8 lg:py-24">
+      {/* <div className="bg-white px-4 py-16 lg:px-8 lg:py-24">
         <div className="mx-auto max-w-4xl text-center">
           <div className="mb-8">
             <div className="text-6xl text-primary mb-6">"</div>
@@ -91,7 +137,7 @@ export default function Integrations() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="w-full">
       {/* Stats Section */}
-      <div className="bg-background px-4 py-16 lg:px-8">
+      {/* <div className="bg-background px-4 py-16 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div>
@@ -30,7 +30,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* CTA Section */}
       <div className="bg-slate-800 px-4 py-16 lg:px-8">

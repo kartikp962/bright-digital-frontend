@@ -7,9 +7,9 @@ export default function Footer() {
       {/* Stats Section */}
       {/* <div className="bg-background px-4 py-16 lg:px-8">
         <div className="mx-auto max-w-7xl">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+          <div className="grid grid-cols-1 gap-8 text-center md:grid-cols-3">
             <div>
-              <div className="text-4xl font-bold text-foreground mb-2">
+              <div className="mb-2 text-4xl font-bold text-foreground">
                 2021
               </div>
               <div className="text-sm text-muted-foreground">
@@ -17,13 +17,13 @@ export default function Footer() {
               </div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-foreground mb-2">
+              <div className="mb-2 text-4xl font-bold text-foreground">
                 50K+
               </div>
               <div className="text-sm text-muted-foreground">Active Users</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-foreground mb-2">1k+</div>
+              <div className="mb-2 text-4xl font-bold text-foreground">1k+</div>
               <div className="text-sm text-muted-foreground">
                 Company Partners
               </div>
@@ -35,7 +35,7 @@ export default function Footer() {
       {/* CTA Section */}
       {/* <div className="bg-slate-800 px-4 py-16 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
-          <h2 className="text-3xl font-bold text-white mb-8 sm:text-4xl">
+          <h2 className="mb-8 text-3xl font-bold text-white sm:text-4xl">
             Discover the full scale of{" "}
             <span className="text-green-400 underline decoration-green-400">
               Clause
@@ -46,13 +46,13 @@ export default function Footer() {
             <Button
               variant="outline"
               size="lg"
-              className="bg-white text-slate-800 hover:bg-gray-100 px-8"
+              className="bg-white px-8 text-slate-800 hover:bg-gray-100"
             >
               Get a Demo
             </Button>
             <Button
               size="lg"
-              className="bg-green-500 hover:bg-green-600 text-white px-8"
+              className="bg-green-500 px-8 text-white hover:bg-green-600"
             >
               Start for Free
             </Button>
@@ -63,7 +63,7 @@ export default function Footer() {
       {/* Footer Links */}
       <div className="bg-slate-900 px-4 py-16 lg:px-8">
         <div className="mx-auto max-w-7xl">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
             {/* Logo and Contact */}
             {/* <div className="space-y-4">
               <div className="flex items-center gap-2">
@@ -88,14 +88,14 @@ export default function Footer() {
 
             {/* Solution Column */}
             {/* <div>
-              <h3 className="text-sm font-semibold text-white mb-4">
+              <h3 className="mb-4 text-sm font-semibold text-white">
                 Solution
               </h3>
               <ul className="space-y-3">
                 <li>
                   <a
                     href="#"
-                    className="text-sm text-slate-300 hover:text-white transition-colors"
+                    className="text-sm text-slate-300 transition-colors hover:text-white"
                   >
                     Why Okpitaine
                   </a>
@@ -103,7 +103,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-sm text-slate-300 hover:text-white transition-colors"
+                    className="text-sm text-slate-300 transition-colors hover:text-white"
                   >
                     Features
                   </a>
@@ -111,7 +111,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-sm text-slate-300 hover:text-white transition-colors"
+                    className="text-sm text-slate-300 transition-colors hover:text-white"
                   >
                     OpenAI
                   </a>
@@ -119,7 +119,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-sm text-slate-300 hover:text-white transition-colors"
+                    className="text-sm text-slate-300 transition-colors hover:text-white"
                   >
                     Technology
                   </a>
@@ -127,7 +127,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-sm text-slate-300 hover:text-white transition-colors"
+                    className="text-sm text-slate-300 transition-colors hover:text-white"
                   >
                     Security
                   </a>
@@ -137,14 +137,14 @@ export default function Footer() {
 
             {/* Customers Column */}
             {/* <div>
-              <h3 className="text-sm font-semibold text-white mb-4">
+              <h3 className="mb-4 text-sm font-semibold text-white">
                 Customers
               </h3>
               <ul className="space-y-3">
                 <li>
                   <a
                     href="#"
-                    className="text-sm text-slate-300 hover:text-white transition-colors"
+                    className="text-sm text-slate-300 transition-colors hover:text-white"
                   >
                     Procurement
                   </a>
@@ -152,7 +152,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-sm text-slate-300 hover:text-white transition-colors"
+                    className="text-sm text-slate-300 transition-colors hover:text-white"
                   >
                     Sales
                   </a>
@@ -160,7 +160,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-sm text-slate-300 hover:text-white transition-colors"
+                    className="text-sm text-slate-300 transition-colors hover:text-white"
                   >
                     Legal
                   </a>
@@ -168,7 +168,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-sm text-slate-300 hover:text-white transition-colors"
+                    className="text-sm text-slate-300 transition-colors hover:text-white"
                   >
                     Medium
                   </a>
@@ -176,7 +176,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-sm text-slate-300 hover:text-white transition-colors"
+                    className="text-sm text-slate-300 transition-colors hover:text-white"
                   >
                     Enterprise
                   </a>
@@ -186,14 +186,14 @@ export default function Footer() {
 
             {/* Resources Column */}
             {/* <div>
-              <h3 className="text-sm font-semibold text-white mb-4">
+              <h3 className="mb-4 text-sm font-semibold text-white">
                 Resources
               </h3>
               <ul className="space-y-3">
                 <li>
                   <a
                     href="#"
-                    className="text-sm text-slate-300 hover:text-white transition-colors"
+                    className="text-sm text-slate-300 transition-colors hover:text-white"
                   >
                     Pricing
                   </a>
@@ -201,7 +201,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-sm text-slate-300 hover:text-white transition-colors"
+                    className="text-sm text-slate-300 transition-colors hover:text-white"
                   >
                     Contact Sales
                   </a>
@@ -209,7 +209,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-sm text-slate-300 hover:text-white transition-colors"
+                    className="text-sm text-slate-300 transition-colors hover:text-white"
                   >
                     Changelog *
                   </a>
@@ -217,7 +217,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-sm text-slate-300 hover:text-white transition-colors"
+                    className="text-sm text-slate-300 transition-colors hover:text-white"
                   >
                     Blog
                   </a>
@@ -227,33 +227,33 @@ export default function Footer() {
           </div>
 
           {/* Bottom Section */}
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+          <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
             <p className="text-sm text-slate-400">
-              © Copyright 2025 Bright Digital. All rights reserved.
+              © Copyright 2025 The Founders Studio. All rights reserved.
             </p>
             <div className="flex items-center gap-4">
               {/* <a
                 href="#"
-                className="text-slate-400 hover:text-white transition-colors"
+                className="text-slate-400 transition-colors hover:text-white"
               >
                 <Twitter className="h-5 w-5" />
               </a> */}
               <a
                 href="https://www.linkedin.com/in/anuragpal7/"
-                className="text-slate-400 hover:text-white transition-colors"
+                className="text-slate-400 transition-colors hover:text-white"
                 target="_blank"
               >
                 <Linkedin className="h-5 w-5" />
               </a>
               {/* <a
                 href="#"
-                className="text-slate-400 hover:text-white transition-colors"
+                className="text-slate-400 transition-colors hover:text-white"
               >
                 <Github className="h-5 w-5" />
               </a> */}
               {/* <a
                 href="#"
-                className="text-slate-400 hover:text-white transition-colors"
+                className="text-slate-400 transition-colors hover:text-white"
               >
                 <Youtube className="h-5 w-5" />
               </a> */}

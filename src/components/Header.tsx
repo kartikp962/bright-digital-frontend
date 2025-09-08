@@ -13,31 +13,31 @@ export default function Header() {
           <div className="flex items-center gap-2">
             <div className="flex h-8 w-8 items-center justify-center rounded bg-primary">
               <span className="text-lg font-bold text-primary-foreground">
-                BD
+                TFS
               </span>
             </div>
             <span className="text-xl font-semibold text-foreground">
-              Bright Digital
+              The Founders Studio
             </span>
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="hidden items-center gap-8 md:flex">
             {/* <a
               href="#"
-              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+              className="text-sm font-medium text-foreground transition-colors hover:text-primary"
             >
               Solutions
             </a>
             <a
               href="#"
-              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+              className="text-sm font-medium text-foreground transition-colors hover:text-primary"
             >
               Customers
             </a> */}
             {/* <a
               href="#results"
-              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+              className="text-sm font-medium text-foreground transition-colors hover:text-primary"
             >
               Results
             </a> */}
@@ -49,7 +49,7 @@ export default function Header() {
       section.scrollIntoView({ behavior: "smooth" });
     }
   }}
-  className="cursor-pointer text-sm font-medium text-foreground hover:text-primary transition-colors"
+  className="cursor-pointer text-sm font-medium text-foreground transition-colors hover:text-primary"
 >
   Results
 </span>
@@ -57,7 +57,7 @@ export default function Header() {
           </nav>
 
           {/* Desktop Auth Buttons */}
-          {/* <div className="hidden md:flex items-center gap-4">
+          {/* <div className="hidden items-center gap-4 md:flex">
             <Button variant="ghost" size="sm">
               Log in
             </Button>
@@ -87,29 +87,29 @@ export default function Header() {
             <nav className="flex flex-col gap-4 pb-4">
               <a
                 href="#"
-                className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+                className="text-sm font-medium text-foreground transition-colors hover:text-primary"
               >
                 Solutions
               </a>
               <a
                 href="#"
-                className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+                className="text-sm font-medium text-foreground transition-colors hover:text-primary"
               >
                 Customers
               </a>
               <a
                 href="#"
-                className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+                className="text-sm font-medium text-foreground transition-colors hover:text-primary"
               >
                 Pricing
               </a>
-              <div className="flex flex-col gap-2 pt-4 border-t">
+              <div className="flex flex-col gap-2 border-t pt-4">
                 <Button variant="ghost" size="sm" className="justify-start">
                   Log in
                 </Button>
                 <Button
                   size="sm"
-                  className="bg-primary hover:bg-primary/90 justify-start"
+                  className="justify-start bg-primary hover:bg-primary/90"
                 >
                   Start Now
                 </Button>
